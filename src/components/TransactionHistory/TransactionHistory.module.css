@@ -10,25 +10,26 @@
     border-collapse: collapse;
   }
   
-  th, td {
+  .transactionHistory th, 
+  .transactionHistory td {
     border: 1px solid #ddd;
     padding: 8px;
     text-align: center;
   }
 
-  td {
-    text-transform: capitalize;
+  .transactionHistory td {
+     text-transform: capitalize;
   }
 
-  th {
+  .transactionHistory th {
     padding-top: 12px;
     padding-bottom: 12px;
-    background-color: #a2358c;
+    background-color: #965b8a;
     color: white;
     text-transform: uppercase;
   }
 
-  tr:nth-child(2n){background-color: #d49cd2;}
+  .transactionHistory tr:nth-child(2n){background-color: #d49cd2;}
 
-  tr:hover {background-color: #796fd8;}
+  .transactionHistory tr:hover {background-color: #796fd8;}
   

@@ -2,19 +2,26 @@
   padding: 0;
   margin: 40px auto;
   list-style: none;
+  display: flex;
+  flex-direction: row;
+  width: 700px;
+  height: 200px;
 }
   
 .itemList {
   display: flex;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
   padding: 5px;
-  width: 330px;
+  width: 100px;
   margin: 0 auto;
   margin-bottom: 15px;
-  border-radius: 5px;
+  border-radius: 7px;
+  border: 2px solid rgb(0, 0, 0);
   overflow: hidden;
   background-color: rgba(245, 245, 245, 1);
   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
 }
 
-.itemList:hover {background-color: #796fd8;}
+.itemList:hover {background-color: #9593a5;}
